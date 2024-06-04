@@ -1,0 +1,56 @@
+.modal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.modalBackground {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(12, 5, 5, 0.9); /* Cor de fundo branca com opacidade */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modalContent {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    max-width: 100%;
+    max-height: auto;
+    overflow: auto;
+  }
+  
+  .close {
+    position: absolute;
+    cursor: pointer;
+    display: block;
+    padding: 12px;
+    background-color: orange;
+    color: #222222; /* Cor do texto do botão */
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 15px;
+    height: 45px;
+    transition: background-color 0.3s ease;  
+    margin-top: 250px;
+    margin-left: 500px;
+   
+  }
+
+
+
+  .close:hover {
+    transform: scale(1.05);
+    background-color: black;
+    color: #ffffff;
+  }
+  

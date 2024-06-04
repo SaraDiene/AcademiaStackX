@@ -1,0 +1,42 @@
+.buttonBuy {
+    font-size:20px;
+    border-style: solid;
+    border-image: linear-gradient(90deg, rgba(105, 2, 50) 0%, rgba(255,0,202,1) 100%) 1;
+  
+    padding: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    margin: auto;
+    display: flex;
+    max-height: auto;
+    overflow: auto;
+  }
+  
+  .buttonBuy:hover {
+    transform: scale(1.2);
+    background: linear-gradient(90deg, rgb(105, 2, 50) 0%, rgba(255,0,202,1) 100%) ;
+    ;
+    color: black;
+    font-weight: bold; 
+  }
+
+    .buttonRegister {
+        display: block;
+        padding: 12px;
+        background-color: orange;
+        color: #222222; 
+        font-size: 16px;
+        font-weight: bold;
+        border: none;
+        border-radius: 15px;
+        cursor: pointer;
+        height: 45px;
+        transition: background-color 0.3s ease;  
+        margin-top: 20px;
+      }
+      
+      .buttonRegister:hover {
+        transform: scale(1.05);
+        background-color: black;
+        color: #ffffff;
+      }
